@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav-bar {
+    background-color: #c1a57b;
+    padding: 20px;
+    display: block;
+}
+
+ul {
+    display: inline;
+} 
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+li > a:hover {
+    color: black;
+}
+
+#logo {
+    height: 28px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1 {
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 5px;  
+    clear: both;
+}
+
+jumbo-tron {
+    padding: 100px;
+    background-color: lightgrey;
+    background-size: 100% 100%; 
+    display: block;
+    object-fit: cover;
+}
+
+search-bar {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+#inputSearch {
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    color: #c1a57b;
+    font-size: 1em;
+}
+
+#searchButton {
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #c1a57b;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#searchButton:hover {
+    color: black;
+    width: 110px;
+}
+
+meal-list {
+    margin-top: 0px;
+    width: 100%;
+    padding: 16px;
+    display: block;
+}
+
+meal-item {
+    display: block;
+}
+
+footer {
+    background: #c1a57b;
+    padding: 15px;
+}
+
+footer > p {
+    font-size: 1.4em;
+    color: white;
+    text-align: center; 
+}
+
+.logo-footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    #inputSearch {
+        width: 70%;
+    }
+}
